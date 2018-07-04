@@ -1,0 +1,17 @@
+# APP_PKG_TESTER_DROPDOWN
+
+<div class="dropdown">
+  <button class="dropbtn">%bind(:1)</button>
+  <div class="dropdown-content">
+    %bind(:2)
+  </div>
+</div>
+
+<br/>
+
+<a href="javascript:void(0);" onClick=resetAppPkgDtls() style="text-decoration:none;font-size: 14px;">Reset</a>
+
+# APP_PKG_TESTER_DRPDWN_LINK
+
+<a href='javascript:void(0);' onClick=javascript:fetchAppPkgDtls(%Bind(:1),%Bind(:2));>%Bind(:3)</a>
+
